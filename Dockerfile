@@ -7,7 +7,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Installing python dependencies
-COPY requirements.txt /usr/src/app/
+COPY requeriments.txt /usr/src/app/
 RUN pip install --no-cache-dir -r requeriments.txt
 
 # Copying src code to Container
