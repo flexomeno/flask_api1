@@ -40,4 +40,4 @@ def remove_movie(id):
     return response
 
 if __name__ == "__main__":
-    app.run(port=1234, debug=True)
+    app.run(port=1234, debug=True,host='0.0.0.0')
